@@ -1,22 +1,22 @@
 class MyToucan < Formula
   desc "Toucan is a static site generator written in Swift."
   homepage "https://github.com/GErP83/my-toucan"
-  version "1.0.0-beta.4"
+  version "1.0.0-beta.5"
 
   if OS.mac?
-    url "https://github.com/GErP83/my-toucan/releases/download/1.0.0-beta.4/toucan-macos-1.0.0.beta.4.zip"
-    sha256 "9041431a52caf14aae944b1be08243d149e2d660f008899469961734d18bc585"
+    url "https://github.com/GErP83/my-toucan/releases/download/1.0.0-beta.5/toucan-macos-1.0.0.beta.5.zip"
+    sha256 "2166bba63106a84c60ec656ca89ddb156e081ccea4a35c703a823f7bbc7a8686"
   elsif OS.linux?
-    url "https://github.com/GErP83/my-toucan/releases/download/1.0.0-beta.4/toucan-linux-1.0.0.beta.4.zip"
-    sha256 "1614c2f00e042a47b6dd25d0480c308ce5353722dff72ef0dd7f98769de97d26"
+    url "https://github.com/GErP83/my-toucan/releases/download/1.0.0-beta.5/toucan-linux-1.0.0.beta.5.zip"
+    sha256 "f50cafd49e85b2218a19d0a35f09331df89ee3334a565f9d366d722a241f909a"
   end
   
   def install
-    bin.install ".build/release/toucan"
-    bin.install ".build/release/toucan-generate"
-    bin.install ".build/release/toucan-init"
-    bin.install ".build/release/toucan-serve"
-    bin.install ".build/release/toucan-watch"
+    bin.install "toucan"
+    bin.install "toucan-init"
+    bin.install "toucan-generate"
+    bin.install "toucan-serve"
+    bin.install "toucan-watch"
   end
 
   test do
