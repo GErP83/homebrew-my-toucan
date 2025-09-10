@@ -5,10 +5,10 @@ class MyToucan < Formula
 
   if OS.mac?
     url "https://github.com/GErP83/my-toucan/releases/download/1.0.0-rc.1/toucan-macos-1.0.0.rc.1.zip"
-    sha256 "Not"
+    sha256 "b96355d9cc56d1a225486e4ac6e961ed989f07cebfa223ec48bccf64b779a192"
   elsif OS.linux?
     url "https://github.com/GErP83/my-toucan/releases/download/1.0.0-rc.1/toucan-linux-1.0.0.rc.1.zip"
-    sha256 "Not"
+    sha256 "71700511b2487cecaca14edf1279e261aa6cde4dc946bb99ac183eefe5834202"
   end
 
   def install
