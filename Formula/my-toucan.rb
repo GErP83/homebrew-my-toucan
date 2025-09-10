@@ -4,10 +4,10 @@ class MyToucan < Formula
   version "1.0.0.rc.1"
 
   if OS.mac?
-    url "https://github.com/GErP83/my-toucan/releases/download//toucan-macos-1.0.0.rc.1.zip"
+    url "https://github.com/GErP83/my-toucan/releases/download/1.0.0-rc.1/toucan-macos-1.0.0.rc.1.zip"
     sha256 "Not"
   elsif OS.linux?
-    url "https://github.com/GErP83/my-toucan/releases/download//toucan-linux-1.0.0.rc.1.zip"
+    url "https://github.com/GErP83/my-toucan/releases/download/1.0.0-rc.1/toucan-linux-1.0.0.rc.1.zip"
     sha256 "Not"
   end
 
