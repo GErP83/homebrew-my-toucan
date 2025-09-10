@@ -1,13 +1,13 @@
 class MyToucan < Formula
   desc "Toucan is a static site generator written in Swift."
   homepage "https://github.com/GErP83/my-toucan"
-  version "1.0.0.beta.7"
+  version "1.0.0.rc.1"
 
   if OS.mac?
-    url "https://github.com/GErP83/my-toucan/releases/download/1.0.0.beta.7/toucan-macos-1.0.0.beta.7.zip"
+    url "https://github.com/GErP83/my-toucan/releases/download//toucan-macos-1.0.0.rc.1.zip"
     sha256 "Not"
   elsif OS.linux?
-    url "https://github.com/GErP83/my-toucan/releases/download/1.0.0.beta.7/toucan-linux-1.0.0.beta.7.zip"
+    url "https://github.com/GErP83/my-toucan/releases/download//toucan-linux-1.0.0.rc.1.zip"
     sha256 "Not"
   end
 
